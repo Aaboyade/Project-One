@@ -1,0 +1,69 @@
+header, .container1, .container2, .container3{
+	display: flex;
+	}
+
+/*header and nav*/
+header{
+	align-items: center;
+	justify-content: space-around;
+	background-color: #e6f2ff;
+	}
+
+nav a {
+	word-spacing: 3px;
+	color:  #162D4D;
+	text-decoration: none;
+}
+
+/*Container one classes and properties*/
+.container1{
+	justify-content: center;
+	background-color: #f2f2f2;
+	}
+
+.randomtext{
+	width: 	50%;
+				}
+
+.image{
+ 	width: 50%;
+ 	 	}
+
+/*Container two classes and properties*/
+.container2{
+		justify-content: center;
+		background-color: #e6f2ff;
+		}
+
+.title{
+	width: 50%;
+	}
+
+.testimonials{
+	width: 50%;
+}
+
+/*Container three classes and properties*/
+.container3 img{
+/*card size*/
+
+	width:  200px;
+	height:  90px;
+}
+.container3{
+	justify-content: center;
+	background-color: #f2f2f2;
+}
+
+.card{	
+width: 	25%;
+}
+
+
+/*Medium devices (display size 0px to 768px) */
+@media only screen and (max-width: 768px) {
+	  body, header, .card, .container1, .container2, .container3 {
+	  	display: block;
+  	 	background-color: greenyellow;
+  	  }
+}
